@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #E71F7B;
+}
+.wrapper {
+    margin: 30px;
+    max-width: 640px;
+    max-height: 800px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    position: relative;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    padding: 20px 20px 13px 20px;
+    display: flex;
+}
+#profile-photo {
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+}
+.user-name {
+    padding-left: 11px;
+}
+.user-name h1 {
+    font-weight: 600;
+    font-size: 15px;
+    color: #1E40AF;
+}
+.user-name h2 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #65676B;
+}
+#dots {
+    max-width: 30px;
+    max-height: 6.67px;
+}
+.profile-info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.note {
+    padding: 0px 20px 9px 20px;
+    display: flex;
+    flex-direction: column;
+    grid-row-gap: 10px;
+}
+.note-text p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #050505;
+}
+.note-tags a {
+    font-weight: 400;
+    font-size: 15px;
+    color: #395996;
+    text-decoration: none;
+}
+.note-link a {
+    font-weight: 400;
+    font-size: 15px;
+    color: #395996;
+    text-decoration: none;
+}
+.main-photo {
+    display: flex;
+    justify-content: center;
+    max-width: 666px;
+    max-height: 440px;
+}
+.info-bar {
+    padding: 0px 20px;
+    height: 76px;
+    background-color: #F2F3F5;
+    border: 3px solid rgba(0, 0, 0, 0.15);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info-adress h2 {
+    font-weight: 400;
+    font-size: 13px;
+    color: #606770;
+}
+.info-title h1 {
+    font-weight: 500;
+    font-size: 17px;
+    color: #1D2129;
+}
+.button {
+    padding: 8px 25px;
+    max-width: 142px;
+    max-height: 36px;
+    font-weight: 600;
+    font-size: 15px;
+    text-align: center;
+    background-color: #EFF1F3;
+    border: 2px solid #BEC3C9;
+    border-radius: 5px;
+}
+.button:hover {
+    background-color: #DEDEDE;
+}
+footer {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer h3 {
+    padding-left: 15px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #606770;
+}
+.like, .comment, .share {
+    padding: 10px 0px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    max-width: 30%;
+    border-radius: 8px;
+}
+.like:hover, .comment:hover, .share:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
