@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    background-color: rgba(250, 251, 255, 1);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.top {
+    width: 74%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.top h1 {
+    font-size: 24px;
+    font-weight: 500;
+}
+#search {
+    margin-right: 65px;
+    padding: 10px 0 10px 35px;
+    font-size: 14px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    background-image: url(icons/search.svg);
+    background-repeat: no-repeat;
+    background-position: left 7px center;
+}
+.finance {
+    margin-right: 65px;
+    padding: 1% 2%;
+    width: 66%;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    display: flex;
+    justify-content: space-around;
+}
+.earning h1, .balance h1, .total-sales h1 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(172, 172, 172, 1);
+}
+.earning h2, .balance h2, .total-sales h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: rgba(51, 51, 51, 1);
+}
+.earning h3, .balance h3, .total-sales h3 {
+    font-size: 12px;
+    font-weight: 700;
+}
+.earning h4, .balance h4, .total-sales h4 {
+    font-size: 12px;
+    font-weight: 400;
+}
+.earning h3 {
+    color: #00AC4F;
+}
+.balance h3 {
+    color: #D0004B;
+}
+.total-sales h3 {
+    color: #00AC4F;
+}
+.earning, .balance, .total-sales {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+}
+.earning-percent, .balance-percent, .total-sales-percent {
+    display: flex;
+}
+.overview-customers {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.overview {
+    margin-top: 50px;
+    padding: 20px 30px;
+    width: 50%;
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+}
+.overview-title {
+    display: flex;
+    justify-content: space-between;
+}
+.overview-title h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.overview h2 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(172, 172, 172, 1);
+}
+.list-nav {
+    padding: 0 40px 0 25px;
+    text-align: center;
+    background-color: rgba(249, 251, 255, 1);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(icons/overview-nav-vector.svg);
+    background-repeat: no-repeat;
+    background-position: right 7px top 15px;
+}
+.nav {
+    padding: 8px 0;
+}
+.list-nav, .nav {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(126, 126, 126, 1);
+}
+.nav-inside {
+    display: none;
+}
+.list-nav:hover .nav-inside {
+    display: block;
+}
+.statistics {
+    text-align: center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+.statistics h1 {
+    font-size: 8px;
+    font-weight: 500;
+    color: rgba(79, 79, 79, 1);
+}
+.month {
+    padding: 0;
+}
+.month img {
+    margin-bottom: 16px;
+}
+#august h1{
+    font-size: 10px;
+    font-weight: 700;
+}
+#august {
+    display: flex;
+    flex-direction: column;
+}
+#august img {
+    margin: 0;
+}
+.product-sell {
+    padding: 25px;
+    margin: 0 65px 30px 0;
+    width: 66%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 30px;
+}
+.product-sell h1 {
+    font-size: 22px;
+    font-weight: 600;
+}
+.product-sell-top {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-search {
+    display: flex;
+}
+table {
+    width: 100%;
+    padding-top: 30px;
+    text-align: left;
+}
+table th {
+    padding: 10px 0;
+    font-weight: 500;
+    font-size: 14px;
+    color: rgba(181, 183, 192, 1);
+}
+table td {
+    padding: 10px 0;
+}
+#table-img {
+    display: flex;
+    align-items: center;
+}
+.table-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.product-name {
+    font-size: 18px;
+    font-weight: 600;
+}
+.product-text {
+    font-size: 12px;
+    color: rgba(145, 151, 179, 1);
+}
+.stock {
+    font-size: 14px;
+    color: rgba(49, 49, 49, 1);
+}
+.price {
+    font-size: 16px;
+    font-weight: 500;
+}
+.total {
+    width: 100%;
+    font-size: 16px;
+    color: rgba(49, 49, 49, 1);
+}
+#center {
+    width: 15%;
+    text-align: center;
+}
+.sidebar {
+    width: 6%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-icons {
+    margin-left: 15px;
+    height: 100%;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar-icons img {
+    padding: 10px;
+    margin: 10px 0;
+}
+.sidebar-icons a {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+}
+.key-icon {
+    background-color: rgba(89, 50, 234, 1);
+    border-radius: 8px;
+}
+.sidebar-icons a:first-child, .sidebar-profile-photo {
+    margin-bottom: 70px;
+}
+#sidebar-hover {
+    display: none;
+}
+.sidebar:hover #sidebar-hover {
+    display: flex;
+}
+.sidebar:hover {
+    width: 20%;
+}
+.sidebar:hover .sidebar-icons {
+    width: 90%;
+}
+.sidebar:hover a:hover {
+    background-color: rgba(145, 151, 179, 0.1);
+    border-radius: 8px;
+}
+.sidebar:hover .settings-a:hover {
+    background-color: #FFFFFF;
+}
+.sidebar-title-text, .sidebar-title, .sidebar-text {
+    display: flex;
+    align-items: center;
+}
+.sidebar-title {
+    color: black;
+    font-size: 26px;
+    font-weight: 600;
+}
+.sidebar-title p {
+    margin: 10px 0 0 5px;
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(131, 131, 131, 1);
+}
+.sidebar:hover #key-hover {
+    background-color: #5932EA;
+    border-radius: 8px;
+}
+.sidebar:hover #key-text {
+    color: white;
+}
+.sidebar-text {
+    color: rgba(145, 151, 179, 1);
+    padding-left: 20px;
+}
+#sidebar-vector {
+    width: 5px;
+}
+.sidebar-icons-text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar-profile-photo {
+    display: flex;
+    justify-content: center;
+}
+#profile-photo-text {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.sidebar:hover #profile-photo-text {
+    width: 90%;
+}
+.sidebar-profile-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sidebar-text-arrow {
+    width: 75%;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.sidebar-name {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 1)
+}
+.sidebar-job {
+    font-size: 12px;
+    color: rgba(117, 117, 117, 1);
+}
+.get-pro {
+    margin: 0 15px 30px 15px;
+    padding: 20px;
+    background: linear-gradient(107.91deg, #EAABF0 7.37%, #4623E9 95.19%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+.get-pro-text {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 1)
+}
+.get-pro-button {
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(73, 37, 233, 1);
+    border: none;
+    background-color: #FFFFFF;
+    box-shadow: 2px 4px 4px rgba(79, 42, 234, 0.17);
+    border-radius: 20px;
+}
+.get-pro-button:hover {
+    cursor: pointer;
+}
+.sidebar-profile-vector {
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Zadanie 10.</title>
+</head>
+<body>
+    <div class="container">
+        <div class="top">
+            <h1>Hello Evano 👋🏼,</h1>
+            <input id="search" type="search" placeholder="Search">
+        </div>
+        <div class="finance">
+            <div class="earning">
+                <img src="images/earning.svg" alt="">
+                <div class="earning-text">
+                    <h1>Earning</h1>
+                    <h2>$198k</h2>
+                    <div class="earning-percent">
+                        <img src="icons/arrow-earning.svg" alt="">
+                        <h3>37.8%</h3><h4>&nbsp this month</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="balance">
+                <img src="images/balance.svg" alt="">
+                <div class="balance-text">
+                    <h1>Balance</h1>
+                    <h2>$2.4k</h2>
+                    <div class="balance-percent">
+                        <img src="icons/arrow-balance.svg" alt="">
+                        <h3>2%</h3><h4>&nbsp this month</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="total-sales">
+                <img src="images/total-sales.svg" alt="">
+                <div class="total-sales-text">
+                    <h1>Total Sales</h1>
+                    <h2>$89k</h2>
+                    <div class="total-sales-percent">
+                        <img src="icons/arrow-total-sales.svg" alt="">
+                        <h3>11%</h3><h4>&nbsp this week</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overview-customers">
+            <div class="overview">
+                <div class="overview-title">
+                    <h1>Overview</h1>
+                    <div class="list-nav">
+                        <div class="nav">Year</div>
+                        <div class="nav-inside">
+                            <div class="nav">Quarter</div>
+                            <div class="nav">Month</div>
+                            <div class="nav">Week</div>
+                            <div class="nav">Day</div>
+                        </div>
+                    </div>
+                </div>
+                <h2>Monthly Earning</h2>
+                <div class="statistics">
+                    <div class="month">
+                        <img src="icons/rectangle-1.svg" alt="">
+                        <h1>Jan</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-2.svg" alt="">
+                        <h1>Feb</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-3.svg" alt="">
+                        <h1>Mar</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-4.svg" alt="">
+                        <h1>Apr</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-5.svg" alt="">
+                        <h1>May</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-6.svg" alt="">
+                        <h1>Jun</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-7.svg" alt="">
+                        <h1>Jul</h1>
+                    </div>
+                    <div class="month" id="august">
+                        <img src="icons/august-percent.svg" alt="">
+                        <img src="icons/rectangle-8.svg" alt="">
+                        <h1>Aug</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-9.svg" alt="">
+                        <h1>Sep</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-10.svg" alt="">
+                        <h1>Oct</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-11.svg" alt="">
+                        <h1>Nov</h1>
+                    </div>
+                    <div class="month">
+                        <img src="icons/rectangle-12.svg" alt="">
+                        <h1>Dec</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="customers">
+                <img src="images/customers.svg" alt="">
+            </div>
+        </div>
+        <div class="product-sell">
+            <div class="product-sell-top">
+                <h1>Product Sell</h1>
+                <div class="nav-search">
+                    <input id="search" type="search" placeholder="Search">
+                    <div class="list-nav">
+                        <div class="nav">Last 30 days</div>
+                        <div class="nav-inside">
+                            <div class="nav">Last 10 days</div>
+                            <div class="nav">Last 1 day</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table>
+                <tr>
+                    <th>Product Name</th>
+                    <th></th>
+                    <th id="center">Stock</th>
+                    <th id="center">Price</th>
+                    <th id="center">Total Sales</th>
+                </tr>
+                <tr>
+                    <td id="table-img"><img src="images/table-1.jpg" alt="image 1"></td>
+                    <td><div class="table-text"><span class="product-name">Abstract 3D</span><span class="product-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></td>
+                    <td id="center"><span class="stock">32 in stock</span></td>
+                    <td id="center"><span class="price">$ 45.99</span></td>
+                    <td id="center"><span class="total">20</span></td>
+                </tr>
+                <tr>
+                    <td id="table-img"><img src="images/table-2.jpg" alt="image 2"></td>
+                    <td><div class="table-text"><span class="product-name">Sarphens Illustration</span><span class="product-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></td>
+                    <td id="center"><span class="stock">32 in stock</span></td>
+                    <td id="center"><span class="price">$ 45.99</span></td>
+                    <td id="center"><span class="total">20</span></td>
+                </tr>
+                <tr>
+                    <td id="table-img"><img src="images/table-3.jpg" alt="image 3"></td>
+                    <td><div class="table-text"><span class="product-name">Landing Page 3D max</span><span class="product-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></td>
+                    <td id="center"><span class="stock">32 in stock</span></td>
+                    <td id="center"><span class="price">$ 45.99</span></td>
+                    <td id="center"><span class="total">20</span></td>
+                </tr>
+                <tr>
+                    <td id="table-img"><img src="images/table-4.jpg" alt="image 4"></td>
+                    <td><div class="table-text"><span class="product-name">Collab Illustration</span><span class="product-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></td>
+                    <td id="center"><span class="stock">32 in stock</span></td>
+                    <td id="center"><span class="price">$ 45.99</span></td>
+                    <td id="center"><span class="total">20</span></td>
+                </tr>
+            </table>
+        </div>
+        <div class="sidebar">
+            <div class="sidebar-icons">
+                <a class="settings-a" href="#">
+                    <img src="icons/setting.svg" alt="">
+                    <span id="sidebar-hover" class="sidebar-title">Dashboard<p>v.01</p></span>
+                </a>
+                <a id="key-hover" href="#">
+                    <img class="key-icon" src="icons/key.svg" alt="">
+                    <span id="sidebar-hover" class="sidebar-text" class="abc">Dashboard</span>
+                </a>
+                <a href="#">
+                    <img src="icons/3d.svg" alt="">
+                    <div id="sidebar-hover" class="sidebar-icons-text">
+                        <span class="sidebar-text">Product</span>
+                        <img id="sidebar-vector" src="icons/sidebar-vector.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="icons/user.svg" alt="">
+                    <div id="sidebar-hover" class="sidebar-icons-text">
+                        <span class="sidebar-text">Customers</span>
+                        <img id="sidebar-vector" src="icons/sidebar-vector.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="icons/wallet.svg" alt="">
+                    <div id="sidebar-hover" class="sidebar-icons-text">
+                        <span class="sidebar-text">Income</span>
+                        <img id="sidebar-vector" src="icons/sidebar-vector.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="icons/message.svg" alt="">
+                    <div id="sidebar-hover" class="sidebar-icons-text">
+                        <span class="sidebar-text">Promote</span>
+                        <img id="sidebar-vector" src="icons/sidebar-vector.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <img src="icons/discount.svg" alt="">
+                    <div id="sidebar-hover" class="sidebar-icons-text">
+                        <span class="sidebar-text">Help</span>
+                        <img id="sidebar-vector" src="icons/sidebar-vector.svg" alt="">
+                    </div>
+                </a>
+            </div>
+            <div id="sidebar-hover" class="get-pro">
+                <span class="get-pro-text">Upgrade to  PRO to get access all Features!</span>
+                <button class="get-pro-button">Get Pro Now!</button>
+            </div>
+            <div class="sidebar-profile-photo">
+                <a id="profile-photo-text" href="#">
+                    <img src="images/profile-photo.svg" alt="">
+                    <div id="sidebar-hover" class="sidebar-text-arrow">
+                        <div class="sidebar-profile-text">
+                            <span class="sidebar-name">Evano</span>
+                            <span class="sidebar-job">Project Manager</span>
+                        </div>
+                       <div class="sidebar-profile-vector">
+                           <img src="icons/sidebar-profile-vector.svg" alt="">
+                       </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
