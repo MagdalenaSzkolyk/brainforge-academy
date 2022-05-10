@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+}
+body {
+    background-color: #CFCFCF;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 54px;
+}
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+}
+.roboto-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+.container {
+    background-color: #FFFFFF;
+}
+header {
+    background-color: rgba(242, 242, 242, 1);
+    display: flex;
+    justify-content: center;
+}
+.top-nav {
+    padding: 1.5em 0;
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+.top-nav-text a {
+    font-size: 1.8em;
+}
+.top-nav-text, .top-nav-icons {
+    display: flex;
+    column-gap: 2.5em;
+}
+.page-title {
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+.menu {
+    padding: 1.5em 0;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: center;
+    column-gap: 8em;
+}
+.menu span {
+    font-size: 2.9em;
+}
+.main-page {
+    padding: 5em 3em;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+.article-main {
+    grid-column: 2;
+    grid-row: 1/3;
+}
+.articles-choose, .article-main, .tags {
+    margin: 2em;
+    padding: 5em;
+    background-color: rgba(248, 248, 248, 0.8);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.small-text {
+    font-size: 2.5em;
+}
+.blog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blog-posts {
+    padding: 4em 0 10em 0;
+    display: flex;
+    justify-content: space-around;
+}
+.post {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+.post p {
+    font-size: 2.9em;
+}
+.post-title {
+    font-size: 2.9em;
+}
+.read {
+    width: 30%;
+    background-color: #FFFFFF;
+    outline: none;
+    border: 1px solid #000000;
+}
+.read span {
+    font-size: 2em;
+}
+.read a {
+    padding: 1.5em;
+}
+.newsletter {
+    display: flex;
+    justify-content: center;
+}
+.newsletter-text {
+    width: 80%;
+    padding: 7em 0;
+    background-color: rgba(240, 236, 236, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2em;
+}
+#name, #email {
+    width: 40%;
+    padding: 0.3em;
+    background: #F8F8F8;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    border: 0.5px solid #000000;
+}
+.go {
+    padding: 0.8em 3.2em;
+    background-color: rgba(179, 179, 179, 1);
+    outline: none;
+    border: none;
+}
+.go span {
+    font-size: 3.3em;
+}
+.go:hover {
+    cursor: pointer;
+}
+footer {
+    display: flex;
+    justify-content: center;
+}
+.footer-content {
+    width: 80%;
+    padding: 4em 0 4em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-content span {
+    color: rgba(116, 116, 116, 1);
+    font-size: 1.8em;
+}
+.footer-icons {
+    display: flex;
+    gap: 2em;
+}
