@@ -1,0 +1,404 @@
+/* mobile - 320-480px, tablet 481-768px */
+
+/* Fala na stronie początkowej nachodzi na ikony aplikacji i jest obrazkiem*/
+/* Dymki przy gadających pieskach i ustawienie ich na stronie */
+/* Większe pole message przy formie ale nie textarea, bo się brzydko rozciąga*/
+/* Łapka przy elemenetach klikalnych - cursor: url(), auto; nie działa */
+/* Czy media screen ustawiać jako em czy jako px? */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+
+#top-nav, #logo-title
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#logo-title a {
+    color: #F0AF15;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+#top-menu {
+    display: flex;
+    gap: 1.8em;
+}
+#top-menu a {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 1em;
+}
+#first-page {
+    padding-top: 2em;
+    background: linear-gradient(135deg, #007D96 -12.5%, #00A5C5 113.5%);
+    border-radius: 0px 0px 100px 0px;
+    position: relative;
+}
+
+
+#welcome-page {
+    color: #FFFFFF;
+    padding: 2em 0 3em 6em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#welcome-text h1 {
+    font-weight: 700;
+    font-size: 2.7em;
+    padding-bottom: 0.5em;
+}
+
+#welcome-text h2 {
+    font-weight: 400;
+    font-size: 1em;
+    padding-bottom: 2em;
+}
+#app-icons a {
+    padding: 1em;
+    z-index: 1;
+}
+#welcome-dog-img {
+    padding-top: 5em;
+}
+#title-page-wave {
+    position: absolute;
+    bottom: -120px;
+    width: 100%;
+}
+
+
+#about-page {
+    padding: 9em 8em 8em 8em;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+}
+#about-map {
+    width: 7em;
+}
+#about-chat {
+    width: 8em;
+}
+#about-location {
+    width: 5.5em;
+}
+#about-calendar {
+    width: 6em;
+}
+#about {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+}
+#about p {
+    text-align: center;
+}
+#map-page {
+    padding: 12em;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#map-page-text {
+    width: 40%;
+    padding: 4em;
+    background-color: #FFFFFF;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 1.6em;
+}
+#map-page-text h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-bottom: 0.5em;
+}
+#map-page-text p {
+    font-size: 1em;
+}
+
+
+#find-app-page {
+    padding: 15em;
+    position: relative;
+}
+#find-app-page img {
+    position: absolute;
+    right: 0;
+    top: -10em;
+}
+#find-app-text {
+    width: 55%;
+}
+#find-app-text h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+#find-app-text p {
+    font-size: 1em;
+    padding: 2em 0;
+}
+#test-join-btn, #send-form {
+    padding: 1em 3em;
+    color: #FFFFFF;
+    background: linear-gradient(135deg, #FF6976 -12.5%, #FF7979 43.02%, #FDBEAE 113.5%);
+    box-shadow: 2px 4px 8px rgba(248, 94, 94, 0.25);
+    border-radius: 3em;
+    border: none;
+    cursor: pointer;
+}
+
+
+#story-page {
+    background-color: #FAFAFA;
+    padding: 10em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6em;
+}
+#story-page p {
+    font-size: 1em;
+}
+#story {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#story-text {
+    width: 65%;
+}
+#story-text h1 {
+    padding-bottom: 1em;
+    font-size: 2.2em;
+    font-weight: 600;
+}
+#story-text span {
+    font-size: 1em;
+}
+
+#ask-page {
+    padding: 10em 10em 0 10em;
+    display: flex;
+    justify-content: space-between;
+}
+#ask-page-first-dog {
+}
+#ask-page-first-dog img {
+}
+.box-text {
+    padding: 2em;
+    width: 50%;
+    font-size: 1em;
+    color: #FFFFFF;
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 4em;
+}
+#box-text-1 {
+    background: linear-gradient(135deg, #007D96 -12.5%, #00A5C5 113.5%);
+}
+#box-text-2 {
+    background-color: #004554;
+}
+#ask-page-second-dog {
+}
+#ask-page-second-dog img {
+}
+
+#form-page {
+    padding: 10em;
+    background-color: #FAFAFA;
+    position: relative;
+    z-index: -1;
+}
+#form-page-text {
+    width: 60%;
+}
+#form-page-text h1 {
+    font-size: 2.5em;
+    font-weight: 600;
+}
+#form-page-text p {
+    font-size: 1em;
+    padding: 2em 0 4em 0;
+}
+#app-form p {
+    padding: 2em 0 0.5em 0;
+}
+#name, #email, #phone, #message {
+    width: 40%;
+    padding: 0.5em;
+}
+#message {
+    width: 50%;
+    margin-bottom: 2em;
+}
+#send-form {
+    padding: 1em 6em;
+}
+#form-page img {
+    position: absolute;
+    right: 0;
+    bottom: -10em;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #007D96 -12.5%, #00A5C5 113.5%);
+}
+#footer h1, #footer p, #footer a {
+    font-size: 1em;
+    color: #FFFFFF;
+}
+#footer-main {
+    padding: 5em 0 3em 0;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+#footer-main-menu, #footer-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+#footer-contact {
+    padding-top: 3em;
+}
+#footer-bottom {
+    padding-bottom: 5em;
+    width: 70%;
+    font-size: 0.7em;
+}
+@media screen and (max-width: 1175px) {
+    body {
+        font-size: 13px;
+    }
+    #title-page-wave {
+        bottom: -70px;
+    }
+    #form-paw {
+        width: 500px;
+    }
+}
+@media screen and (max-width: 1130px) {
+    body {
+        font-size: 12px;
+    }
+    #title-page-wave {
+        bottom: 0px;
+    }
+    #welcome-dog-img {
+        width: 420px;
+    }
+}
+@media screen and (max-width: 1025px) {
+    body {
+        font-size: 11px;
+    }
+    #welcome-dog-img {
+        width: 350px;
+    }
+    #title-page-wave {
+        bottom: 100px;
+    }
+    #map-page-phone {
+        width: 280px;
+    }
+    #form-paw {
+        width: 370px;
+    }
+    #find-app-paw {
+        width: 260px;
+    }
+}
+@media screen and (max-width: 885px) {
+    body {
+        font-size: 10px;
+    }
+    #welcome-dog-img {
+        width: 350px;
+    }
+    #title-page-wave {
+        bottom: 170px;
+    }
+    #map-page-phone {
+        width: 240px;
+    }
+    #form-paw {
+        width: 350px;
+    }
+}
+@media screen and (max-width: 840px) {
+    body {
+        font-size: 9px;
+    }
+    #welcome-dog-img {
+        width: 300px;
+    }
+    #title-page-wave {
+        bottom: 200px;
+    }
+    #map-page-phone {
+        width: 220px;
+    }
+    #form-paw {
+        width: 350px;
+    }
+}
+@media screen and (max-width: 740px) {
+    body {
+        font-size: 8px;
+    }
+    #welcome-dog-img {
+        width: 280px;
+    }
+    #title-page-wave {
+        bottom: 250px;
+    }
+    #story-page img {
+        width: 150px;
+    }
+    #map-page-phone {
+        width: 200px;
+    }
+    #find-app-paw {
+        width: 200px;
+    }
+    #form-paw {
+        width: 250px;
+    }
+}
+@media screen and (max-width: 670px) {
+    
+}
